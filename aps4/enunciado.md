@@ -1,6 +1,8 @@
 # Entregável 4 de Robótica Computacional
 
-Mova
+* Certifique-se que seu repositório está no diretório da ROS, `catkin_ws/src` e que você executou o comando `catkin_make` no diretório `catkin_ws`.
+
+* Depois use o comando `chmod +x catkin_ws/src/aps4/scripts/*.py` para tornar os arquivos `.py` executáveis.
 
 # Exercício 1
 Usando o simulador, modifique o arquivo `cor.py` para criar um nó da ROS que faça o seguinte.
