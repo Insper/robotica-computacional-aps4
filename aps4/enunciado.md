@@ -1,6 +1,6 @@
 # Entregável 4 de Robótica Computacional
 
-Em cada exercício, grave a tela mostrando o robô realizando todos os objetivos e adicione o link do vídeo no arquivo `videoslist-ros.txt`.
+Mova
 
 # Exercício 1
 Usando o simulador, modifique o arquivo `cor.py` para criar um nó da ROS que faça o seguinte.
