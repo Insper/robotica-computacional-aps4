@@ -10,6 +10,7 @@ Usando o simulador, modifique o arquivo `cor.py` para criar um nó da ROS que fa
 4. Quando o creeper estiver **aproximadamente** no centro da imagem, o robô deve começar a se mover em sua direção.
 4. Continue utilizando controle proporcional para centralizar o creeper no centro da imagem enquanto o robô se aproxima.
 6. O robô deve parar a **30cm** do creeper sem tocar no creeper.
+7. **Grave um vídeo** mostrando o robô realizando todos os objetivos, publique no Youtube e escreva o link no arquivo `README.md` do seu repositório.
 
 **SUGESTÃO** - Use a **Q5 da Atividade 4** como um nó separado para processar a imagem e publicar o centro do creeper no tópico `center_publisher`.
 
@@ -24,6 +25,7 @@ Usando o simulador, modifique o arquivo `aleatorio.py` para criar um nó da ROS 
 4. Se a caixa for magenta, o robô deve se aproximar da caixa e parar a **20cm**, depois deve voltar para a posição de origem.
 5. Se a caixa for amarela, o robô deve se deslocar para trás, enquanto centraliza na caixa cyano, e parar a **20cm** de algum obstáculo, depois deve voltar para a posição de origem.
 6. Se não encontrar nada, rode novamente.
+7. **Grave um vídeo** mostrando o robô realizando todos os objetivos, publique no Youtube e escreva o link no arquivo `README.md` do seu repositório.
 
 **SUGESTÃO** - Crie uma maquina de estados para para a caixa magenta e outra para a caixa amarela e teste cada uma delas separadamente. Depois, o use o metodo `update()` para atualizar a maquina de estados de acordo com a cor da caixa, como no exemplo a seguir:
 
@@ -46,6 +48,10 @@ Usando o simulador, modifique o arquivo `aleatorio.py` para criar um nó da ROS 
 Onde, depois de girar em malha aberta, o robô checa a cor da caixa e atualiza a maquina de estados de acordo.
 
 # Exercício 3
-Usando o simulador, modifique o arquivo `pista.py` para criar um nó da ROS que faça com que o robô siga as linhas amarelas da pista, utilizando o controle proporcional.
+Usando o robô real, modifique o arquivo `pista.py` para criar um nó da ROS que faça com que o robô siga as linhas amarelas da pista, utilizando o controle proporcional.
 
-**SUGESTÃO** - Pode utilizar o que foi feito na APS3 e calcular o erro do trajeto amarelo ou pode centralizar no amarelo de forma similar ao creeper.
+* **Grave um vídeo** mostrando o **robô real** realizando todos os objetivos, publique no Youtube e escreva o link no arquivo `README.md` do seu repositório.
+
+**SUGESTÃO 1** - Primeiramente teste no simulador e depois execute no robô real.
+
+**SUGESTÃO 2** - Siga o desafio da APS 2, centralizando no amarelo de forma similar ao creeper.
